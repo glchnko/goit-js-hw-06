@@ -11,7 +11,7 @@ function formElSubmitHendler(evt){
     } = evt.currentTarget;
 
     if (email.value === '' || password.value === ''){
-        return console.log("Please fill in all the fields!");
+        alert ("Please fill in all the fields!");
     }
       
     console.log(`Login: ${email.value}, Password: ${password.value}`);
