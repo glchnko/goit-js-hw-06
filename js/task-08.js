@@ -12,7 +12,7 @@ function formElSubmitHendler(evt){
 
     if (email.value === '' || password.value === ''){
         alert ("Please fill in all the fields!");
-        return  evt.currentTarget.reset();
+        return ;
     }
       
     console.log(`Login: ${email.value}, Password: ${password.value}`);
